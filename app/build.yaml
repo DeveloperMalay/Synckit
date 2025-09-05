@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        options:
+          # Use data class names from the table classes
+          use_data_class_name_for_companions: true
+          # Generate manager classes for easier queries
+          generate_manager: true
